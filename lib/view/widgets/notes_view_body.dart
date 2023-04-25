@@ -34,6 +34,7 @@ class NotesItem extends StatelessWidget {
         children: [
           ListTile(
             title: Text("fluter tips"),
+            subtitle: Text("builled"),
           )
         ],
       ),

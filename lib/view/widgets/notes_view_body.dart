@@ -41,6 +41,7 @@ class NotesItem extends StatelessWidget {
               icon: Icon(Icon.delete,color: Colors.black,),
             ),
           )
+        Text('may21, 2022')
         ],
       ),
     );

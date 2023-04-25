@@ -40,7 +40,10 @@ class NotesItem extends StatelessWidget {
             title: Text("fluter tips",style: TextStyle(color: Colors.black
             
             ),),
-            subtitle: Text("builled"),
+            subtitle: Padding(
+              padding: const EdgeInsets.only(top: 16),
+              child: Text("builled"),
+            ),
             trailing: IconButton(
               onPressed: () {},
               icon: Icon(Icon.delete,color: Colors.black,),

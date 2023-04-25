@@ -5,6 +5,13 @@ class CustomAppbar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row();
+    return Row(
+      children: [
+        Text(
+          'notes',
+          style: TextStyle,
+        )
+      ],
+    );
   }
 }

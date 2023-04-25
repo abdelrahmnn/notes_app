@@ -1,3 +1,4 @@
+import 'package:notes_app/view/notes_view.dart';
 class NotesItem extends StatelessWidget {
   const NotesItem({super.key});
 

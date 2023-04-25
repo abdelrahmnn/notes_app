@@ -35,7 +35,10 @@ class NotesItem extends StatelessWidget {
           ListTile(
             title: Text("fluter tips"),
             subtitle: Text("builled"),
-            trailing: ,
+            trailing: IconButton(
+              onPressed: () {},
+              icon: Icon(Icon.delete),
+            ),
           )
         ],
       ),

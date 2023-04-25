@@ -29,13 +29,16 @@ class NotesItem extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: Colors.yellow,
+        
         border: BorderRadius.circular(16),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           ListTile(
-            title: Text("fluter tips",style: TextStyle(color: Colors.black),),
+            title: Text("fluter tips",style: TextStyle(color: Colors.black
+            fontSize: 26
+            ),),
             subtitle: Text("builled"),
             trailing: IconButton(
               onPressed: () {},

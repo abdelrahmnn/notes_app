@@ -19,3 +19,18 @@ class NotesViewbody extends StatelessWidget {
     );
   }
 }
+
+class NotesItem extends StatelessWidget {
+  const NotesItem({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.yellow,
+        border: BorderRadius.circular(16),
+      ),
+      child: Column,
+    );
+  }
+}

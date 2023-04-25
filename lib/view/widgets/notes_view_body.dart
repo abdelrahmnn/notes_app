@@ -30,7 +30,9 @@ class NotesItem extends StatelessWidget {
         color: Colors.yellow,
         border: BorderRadius.circular(16),
       ),
-      child: Column,
+      child: Column(
+        children: [ListTile()],
+      ),
     );
   }
 }

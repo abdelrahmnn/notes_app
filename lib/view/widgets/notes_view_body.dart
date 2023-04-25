@@ -27,6 +27,7 @@ class NotesItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       decoration: BoxDecoration(
         color: Colors.yellow,
         
@@ -37,7 +38,7 @@ class NotesItem extends StatelessWidget {
         children: [
           ListTile(
             title: Text("fluter tips",style: TextStyle(color: Colors.black
-            fontSize: 26
+            
             ),),
             subtitle: Text("builled"),
             trailing: IconButton(

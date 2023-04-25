@@ -32,6 +32,7 @@ class NotesItem extends StatelessWidget {
         border: BorderRadius.circular(16),
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           ListTile(
             title: Text("fluter tips",style: TextStyle(color: Colors.black),),

@@ -9,11 +9,10 @@ class NotesViewbody extends StatelessWidget {
     return Column(
       children: const [
         SizedBox(
-
           height: 50,
-        )
-        
-        CustomAppbar()],
+        ),
+        CustomAppbar()
+      ],
     );
   }
 }

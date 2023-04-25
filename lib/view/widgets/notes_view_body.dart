@@ -38,7 +38,7 @@ class NotesItem extends StatelessWidget {
             subtitle: Text("builled"),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(Icon.delete),
+              icon: Icon(Icon.delete,color: Colors.black,),
             ),
           )
         ],

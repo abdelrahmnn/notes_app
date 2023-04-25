@@ -34,7 +34,7 @@ class NotesItem extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            title: Text("fluter tips"),
+            title: Text("fluter tips",style: TextStyle(color: Colors.black),),
             subtitle: Text("builled"),
             trailing: IconButton(
               onPressed: () {},

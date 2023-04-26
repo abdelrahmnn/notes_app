@@ -17,7 +17,7 @@ class NotesViewbody extends StatelessWidget {
           CustomAppbar(),
           Expanded(
             child: ListView(
-              children: [],
+              children: [NotesItem()],
             ),
           )
         ],

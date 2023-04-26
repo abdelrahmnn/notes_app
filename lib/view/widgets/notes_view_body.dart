@@ -15,13 +15,17 @@ class NotesViewbody extends StatelessWidget {
             height: 50,
           ),
           CustomAppbar(),
-          Expanded(
-            child: ListView(
-              children: [NotesItem()],
-            ),
-          )
         ],
       ),
     );
+  }
+}
+
+class notelistview extends StatelessWidget {
+  const notelistview({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }

@@ -15,7 +15,7 @@ class NotesViewbody extends StatelessWidget {
             height: 50,
           ),
           CustomAppbar(),
-          notelistview()
+          SizedBox(height: 100, child: notelistview())
         ],
       ),
     );
